@@ -4,11 +4,10 @@
 //        каждому типу работника.
 public class Zadanie_3 {
     public void task3() {
-        Worker worker = new Worker();
-        President president=new President();
-        Security security=new Security();
-        Manager manager=new Manager();
-        Engineer engineer=new Engineer();
+        Worker president=new President();
+        Worker security=new Security();
+        Worker manager=new Manager();
+        Worker engineer=new Engineer();
         president.Print();
         security.Print();
         manager.Print();
